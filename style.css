@@ -32,7 +32,12 @@ nav {
 
 .main-nav {
   padding-inline-start: 0;
+  display: flex;
 }
+
+/* .main-nav .push {
+  justify-content: flex-end;
+} */
 
 @media only screen and (max-width: 600px) {
   .main-nav {
@@ -54,6 +59,11 @@ li a {
 
 li a:hover {
   text-decoration: underline;
+}
+
+.push {
+  margin-left: auto;
+  /* align-self: flex-end; */
 }
 
 /* II. COVER */
